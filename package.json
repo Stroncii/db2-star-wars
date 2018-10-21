@@ -1,8 +1,8 @@
 {
-  "name": "db2-react-star-wars",
+  "name": "db2-star-wars",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stroncii.github.io/db2-react-star-wars",
+  "homepage": "https://stroncii.github.io/db2-star-wars",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.6",
     "@fortawesome/free-solid-svg-icons": "^5.4.1",

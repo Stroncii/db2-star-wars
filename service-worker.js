@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/db2-react-star-wars/precache-manifest.95f5e42bc14d26d3fa057f9f602c8a55.js"
+  "/db2-star-wars/precache-manifest.21fbd21da84772014f75006ccced955f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/db2-react-star-wars/index.html", {
+workbox.routing.registerNavigationRoute("/db2-star-wars/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

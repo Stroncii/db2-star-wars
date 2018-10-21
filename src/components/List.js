@@ -92,6 +92,7 @@ class customList extends React.Component {
     };
 
     render () {
+        console.log(this.props.type);
         if (this.state.isLoading) {
             return (<FontAwesomeIcon className={'loading'} icon="sun" />)
         };
@@ -102,7 +103,7 @@ class customList extends React.Component {
                 <div className={'item'} key={index}>
                     <FontAwesomeIcon className={'point-icon'} icon="jedi" />
                     <p>
-                        <Link to={ {pathname: `/${this.props.type}/${name}`, state: item.url  } }>
+                        <Link to={ { pathname: '/' + this.props.type + '/' + name, state: item.url  } }>
                             {name}</Link>
                     </p>
                 </div>

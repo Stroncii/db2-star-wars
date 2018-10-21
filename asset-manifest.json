@@ -1,7 +1,7 @@
 {
   "main.css": "/db2-star-wars/static/css/main.52138def.chunk.css",
-  "main.js": "/db2-star-wars/static/js/main.272b1de5.chunk.js",
-  "main.js.map": "/db2-star-wars/static/js/main.272b1de5.chunk.js.map",
+  "main.js": "/db2-star-wars/static/js/main.43f38469.chunk.js",
+  "main.js.map": "/db2-star-wars/static/js/main.43f38469.chunk.js.map",
   "static/js/1.9781a9ed.chunk.js": "/db2-star-wars/static/js/1.9781a9ed.chunk.js",
   "static/js/1.9781a9ed.chunk.js.map": "/db2-star-wars/static/js/1.9781a9ed.chunk.js.map",
   "runtime~main.js": "/db2-star-wars/static/js/runtime~main.eed14f7d.js",
@@ -9,6 +9,6 @@
   "static/media/Vader.png": "/db2-star-wars/static/media/Vader.46ed4951.png",
   "static/css/main.52138def.chunk.css.map": "/db2-star-wars/static/css/main.52138def.chunk.css.map",
   "index.html": "/db2-star-wars/index.html",
-  "precache-manifest.c4dfc13d945e3b965d7656b3b242c68d.js": "/db2-star-wars/precache-manifest.c4dfc13d945e3b965d7656b3b242c68d.js",
+  "precache-manifest.577e75dde9094579fe560cb40dd7769b.js": "/db2-star-wars/precache-manifest.577e75dde9094579fe560cb40dd7769b.js",
   "service-worker.js": "/db2-star-wars/service-worker.js"
 }

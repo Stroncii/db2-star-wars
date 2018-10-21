@@ -17,7 +17,7 @@ class customList extends React.Component {
     CancelToken = axios.CancelToken;
     source = this.CancelToken.source();
     state = {
-        type: 'films',
+        type: this.props.type,
         data: [],
         isLoading: false,
         next: '',

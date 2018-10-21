@@ -102,7 +102,7 @@ class customList extends React.Component {
                 <div className={'item'} key={index}>
                     <FontAwesomeIcon className={'point-icon'} icon="jedi" />
                     <p>
-                        <Link to={ {pathname: '/films/' + name, state: item.url  } }>
+                        <Link to={ {pathname: `/${this.props.type}/${name}`, state: item.url  } }>
                             {name}</Link>
                     </p>
                 </div>

@@ -29,8 +29,8 @@ class HomeComponent extends React.Component {
             <div>
                 <AppBar position="static">
                     <Tabs value={this.state.value} onChange={this.handleChange}>
-                        <Tab label="Films" />
-                        <Tab label="Peoples" />
+                        <Tab label="Movies" />
+                        <Tab label="People" />
                         <Tab label="Planets" />
                         <Tab label="Species" />
                         <Tab label="Starships" />

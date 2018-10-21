@@ -45,11 +45,11 @@ class FilmsDetailComponent extends React.Component {
                         </Typography>
                         <hr/>
                         <Typography variant="body2" component="p">
-                            Director of the film is {film.director}
+                            Movie director: {film.director}
                         </Typography>
                         <hr/>
                         <Typography component="p">
-                            Film was realised in {new Date(film.release_date).toLocaleDateString()}
+                            Release: {new Date(film.release_date).toLocaleDateString()}
                         </Typography>
                     <hr/>
                     <Typography component="p">

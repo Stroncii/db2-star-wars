@@ -17,11 +17,13 @@ function TabContainer(props) {
 class HomeComponent extends React.Component {
 
     state = {
-        value: 0,
+        value: 0
     };
 
     handleChange = (event, value) => {
-        this.setState({value});
+        this.setState({value}, () => {
+            localStorage.setItem('tabValue', this.state.value);
+        });
     };
 
     render() {
@@ -47,7 +49,10 @@ class HomeComponent extends React.Component {
         </div>);
     }
     componentDidMount () {
-
+        let oldTabValue = localStorage.getItem('tabValue');
+        this.setState({
+            value: ( oldTabValue === undefined || oldTabValue === null ) ? 0 : parseInt(oldTabValue)
+        })
     }
 }
 

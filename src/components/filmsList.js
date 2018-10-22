@@ -34,6 +34,7 @@ class FilmsList extends React.Component {
                 </Typography>
                 <hr/>
                 Movies are loading!
+                <hr/>
             </div>)
         }
 
@@ -45,6 +46,7 @@ class FilmsList extends React.Component {
                     </Typography>
                     <hr/>
                     There are no movies on this topic
+                    <hr/>
                 </div>
             )
         }

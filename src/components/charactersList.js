@@ -36,6 +36,7 @@ class CharactersList extends React.Component {
                 </Typography>
                 <hr/>
                 {type} are loading!
+                <hr/>
             </div>)
         }
 

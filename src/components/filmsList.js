@@ -30,10 +30,10 @@ class FilmsList extends React.Component {
         if (this.state.isLoading || !this.state.films) {
             return (<div className="details-list">
                 <Typography variant="h5" component="h3">
-                    Films
+                    Movies
                 </Typography>
                 <hr/>
-                Films is loading
+                Movies are loading!
             </div>)
         }
 
@@ -41,10 +41,10 @@ class FilmsList extends React.Component {
             return (
                 <div className="details-list">
                     <Typography variant="h5" component="h3">
-                        Films
+                        Movies
                     </Typography>
                     <hr/>
-                    There is no film according the entity
+                    There are no movies on this topic
                 </div>
             )
         }
@@ -61,7 +61,7 @@ class FilmsList extends React.Component {
         return (
             <div className="details-list">
                 <Typography variant="h5" component="h3">
-                    Films
+                    Movies
                 </Typography>
                 <hr/>
                 {filmsList}

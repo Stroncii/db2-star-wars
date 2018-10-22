@@ -33,7 +33,7 @@ class SpeciesList extends React.Component {
                     Species
                 </Typography>
                 <hr/>
-                SPECIES IS LOADING!
+                Species are loading!
             </div>)
         }
 
@@ -44,7 +44,7 @@ class SpeciesList extends React.Component {
                         Species
                     </Typography>
                     <hr/>
-                    There is no specie according the entity
+                    There are no relevant species
                 </div>
             )
         }

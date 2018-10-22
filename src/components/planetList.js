@@ -33,7 +33,7 @@ class PlanetsList extends React.Component {
                     Planets
                 </Typography>
                 <hr/>
-                PLANETS IS LOADING!
+                Planets are loading
             </div>)
         }
 
@@ -44,7 +44,7 @@ class PlanetsList extends React.Component {
                         Planets
                     </Typography>
                     <hr/>
-                    There is no planet according the entity
+                    There are no relevant planets
                 </div>
             )
         }

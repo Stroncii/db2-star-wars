@@ -28,14 +28,14 @@ class CharactersList extends React.Component {
     }
 
     render () {
-        let type = this.state.type.charAt(0).toUpperCase() + this.state.type.slice(1)
+        let type = this.state.type.charAt(0).toUpperCase() + this.state.type.slice(1); // capitallize
         if (this.state.isLoading || !this.state.characters) {
             return (<div className="details-list">
                 <Typography variant="h5" component="h3">
                     {type}
                 </Typography>
                 <hr/>
-                {type} is loading!
+                {type} are loading!
             </div>)
         }
 
@@ -46,7 +46,7 @@ class CharactersList extends React.Component {
                         {type}
                     </Typography>
                     <hr/>
-                    There is no {this.state.type} according the entity
+                    {type} do not exist
                 </div>
             )
         }

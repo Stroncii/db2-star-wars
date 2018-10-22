@@ -33,7 +33,7 @@ class VehiclesList extends React.Component {
                     Vehicles
                 </Typography>
                 <hr/>
-                Vehisles is loading!
+                Vehicles are loading
                 <hr/>
             </div>)
         }
@@ -45,7 +45,7 @@ class VehiclesList extends React.Component {
                         Vehicles
                     </Typography>
                     <hr/>
-                    There are not any vehicles according the entity
+                    There are no relevant vehicles
                     <hr/>
                 </div>
             )

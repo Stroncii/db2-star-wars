@@ -33,7 +33,7 @@ class StarshipsList extends React.Component {
                     Starships
                 </Typography>
                 <hr/>
-                STARSHIPS IS LOADING!
+                Starships are loading!
             </div>)
         }
 
@@ -44,7 +44,7 @@ class StarshipsList extends React.Component {
                         Starships
                     </Typography>
                     <hr/>
-                    There is no starship according the entity
+                    There are no relevant starships
                 </div>
             )
         }

@@ -47,6 +47,7 @@ class CharactersList extends React.Component {
                     </Typography>
                     <hr/>
                     {type} do not exist
+                    <hr/>
                 </div>
             )
         }

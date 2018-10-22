@@ -32,7 +32,7 @@ class App extends Component {
               <Route path="/planets/:id" component={PlanetsDetailComponent} />
               <Route path="/starships/:id" component={StarshipsDetailComponent} />
               <Route path="/vehicles/:id" component={VehiclesDetailComponent} />
-              <Route path="/characters/:id" component={CharactersDetailComponent} />
+              <Route path="/people/:id" component={CharactersDetailComponent} />
               <Route path="/species/:id" component={SpeciesDetailComponent} />
           </Switch>
       </div>

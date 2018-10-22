@@ -55,7 +55,7 @@ class CharactersList extends React.Component {
         const charactersList = this.state.characters.map((item, index) => {
             return (
                 <Button key={index}>
-                    <Link to={ {pathname: '/characters/' + item.name, state: item.url  } }>
+                    <Link to={ {pathname: '/people/' + item.name, state: item.url  } }>
                         {item.name}</Link>
                 </Button>
             )

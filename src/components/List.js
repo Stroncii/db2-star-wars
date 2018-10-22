@@ -92,7 +92,6 @@ class customList extends React.Component {
     };
 
     render () {
-        console.log(this.props.type);
         if (this.state.isLoading) {
             return (<FontAwesomeIcon className={'loading'} icon="sun" />)
         };
